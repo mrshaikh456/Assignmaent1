@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(209, 180, 233);
+}
+
+header {
+    background: #4c0d5c;
+    color: #fff;
+    padding: 5px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+nav ul li:hover {
+    background: #7a1259;
+    text-decoration: none;
+    
+}
+section p {
+    margin-bottom: 20px;
+    height: 20px;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    padding: 1rem ;
+    justify-content: center;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.main-image, .kdrama-image, .kmovie-image {
+    width: 100%;
+    max-width: 600px; /* Adjust max width as needed */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
